@@ -1,0 +1,283 @@
+/* Estilos Generales */
+body {
+    font-family: 'Garamond', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f0f4f8, #d9e6f2);
+}
+
+/* Navegación */
+.navbar {
+    background-color: #058a74;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* Encabezado Principal */
+.main-header {
+    text-align: center;
+    padding: 60px 20px;
+    color: #058a74;
+}
+
+.main-header h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.main-header h2 {
+    font-size: 45px;
+    margin: 7px 0;
+}
+
+.main-header p {
+    font-size: 30px;
+    color: #037562;
+}
+
+/* Sección de Perfil */
+.perfil-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #69a995;
+}
+
+.perfil-container {
+    display: flex;
+    max-width: 800px;
+    border: 0.5px solid #4a4949;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.foto-perfil {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-right: 0.5px solid #3d3a3a;
+}
+
+.descripcion-perfil {
+    padding: 15px;
+}
+
+.descripcion-perfil h3 {
+    font-size: 24px;
+    color: #004d40;
+    margin-bottom: 10px;
+}
+
+.descripcion-perfil p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+
+
+/* Sección de Contacto */
+
+.contacto-section {
+    background-color: #dcece4;
+    padding: 25px;
+    text-align: center;
+    border-top: 1px solid #b9bdbc;
+}
+
+.contacto-section h2 {
+    font-size: 30px;
+    color: #004d40;
+    margin-bottom: 20px;
+}
+
+.contacto-section p {
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.contacto-section a {
+    color: #00695c;
+    text-decoration: none;
+}
+
+.contacto-section a:hover {
+    text-decoration: underline;
+}
+
+
+/* Contenedor del Gatito */
+.cat-container {
+    position: relative;
+    height: 100px;
+}
+
+.cat {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+/* Sección de Educación */
+
+.educacion-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+    gap: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.educacion-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.educacion-info h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.educacion-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.educacion-info li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.educacion-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    object-fit: cover; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.diploma-img {
+    margin-top: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+}
+
+/* sección de experiencia */
+.experiencia-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #4a8a75;
+}
+
+.experiencia-item {
+    background-color: #d8e2df;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 15px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experiencia-item h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.experiencia-item p strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #777;
+}
+
+.experiencia-item ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.experiencia-item ul li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.habilidades-section {
+    padding: 20px;
+    background-color: #d8e2df;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.habilidades-section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.habilidades-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.habilidad {
+    background-color: #3a6c5d;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.habilidad:hover {
+    background-color: #4f717d;
+    transform: scale(1.1);
+}
+
+/*para el footer*/ 
+.footer {
+    background-color: #2c3e50; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    padding: 1rem; /* Espaciado alrededor del texto */
+    position: bottom; /* Posición relativa */
+    bottom: 0; /* Posición al fondo */
+    width: 100%; /* Ancho completo */
+}
+
+.footer p {
+    margin: 0; /* Elimina el margen */
+}
